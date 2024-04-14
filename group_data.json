@@ -1,86 +1,1106 @@
 {
-    "202201": {
+    "202101": {
         "store_data": [
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 85,
-                "total_meals": 170
+                "total_users": 12,
+                "total_meals": 26
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 55,
-                "total_meals": 157
+                "total_users": 20,
+                "total_meals": 49
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 67,
-                "total_meals": 326
+                "total_users": 18,
+                "total_meals": 29
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 53,
-                "total_meals": 127
+                "total_users": 13,
+                "total_meals": 34
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 149,
-                "total_meals": 147
+                "total_users": 23,
+                "total_meals": 52
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 392
+                "total_users": 14,
+                "total_meals": 27
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 197,
-                "total_meals": 211
+                "total_users": 14,
+                "total_meals": 51
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 147,
-                "total_meals": 124
+                "total_users": 28,
+                "total_meals": 27
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 84,
-                "total_meals": 328
+                "total_users": 29,
+                "total_meals": 17
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 148,
-                "total_meals": 463
+                "total_users": 37,
+                "total_meals": 81
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 269,
-                "total_meals": 448
+                "total_users": 49,
+                "total_meals": 82
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 350,
-                "total_meals": 519
+                "total_users": 53,
+                "total_meals": 94
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 124,
-                "total_meals": 377
+                "total_users": 56,
+                "total_meals": 53
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 336,
-                "total_meals": 670
+                "total_users": 38,
+                "total_meals": 98
+            }
+        ]
+    },
+    "202102": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 15,
+                "total_meals": 35
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 32
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 38
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 29
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 28
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 32
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 45
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 53
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 32
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 58,
+                "total_meals": 93
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 38,
+                "total_meals": 37
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 52,
+                "total_meals": 55
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 46,
+                "total_meals": 50
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 40,
+                "total_meals": 70
+            }
+        ]
+    },
+    "202103": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 18,
+                "total_meals": 23
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 36
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 26
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 48
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 58
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 45
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 43
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 60
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 22
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 46,
+                "total_meals": 74
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 33,
+                "total_meals": 98
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 40,
+                "total_meals": 61
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 36,
+                "total_meals": 35
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 52,
+                "total_meals": 67
+            }
+        ]
+    },
+    "202104": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 30,
+                "total_meals": 25
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 26
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 45
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 53
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 25
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 34
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 31
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 17
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 44
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 53,
+                "total_meals": 64
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 40,
+                "total_meals": 77
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 40,
+                "total_meals": 51
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 40,
+                "total_meals": 80
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 50,
+                "total_meals": 38
+            }
+        ]
+    },
+    "202105": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 22,
+                "total_meals": 32
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 39
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 60
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 51
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 46
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 15
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 52
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 27
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 49
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 57,
+                "total_meals": 99
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 56,
+                "total_meals": 56
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 48,
+                "total_meals": 49
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 32,
+                "total_meals": 94
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 45,
+                "total_meals": 93
+            }
+        ]
+    },
+    "202106": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 28,
+                "total_meals": 26
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 21
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 51
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 56
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 46
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 26
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 59
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 55
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 26,
+                "total_meals": 47
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 36,
+                "total_meals": 35
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 34,
+                "total_meals": 64
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 41,
+                "total_meals": 84
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 57,
+                "total_meals": 87
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 59,
+                "total_meals": 81
+            }
+        ]
+    },
+    "202107": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 27,
+                "total_meals": 37
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 48
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 28
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 20
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 46
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 26,
+                "total_meals": 17
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 60
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 46
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 28
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 57,
+                "total_meals": 58
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 40,
+                "total_meals": 44
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 51,
+                "total_meals": 70
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 53,
+                "total_meals": 32
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 50,
+                "total_meals": 51
+            }
+        ]
+    },
+    "202108": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 18,
+                "total_meals": 41
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 27,
+                "total_meals": 57
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 53
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 54
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 17
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 57
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 24
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 29
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 30
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 45,
+                "total_meals": 88
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 43,
+                "total_meals": 100
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 60,
+                "total_meals": 80
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 42,
+                "total_meals": 51
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 36,
+                "total_meals": 43
+            }
+        ]
+    },
+    "202109": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 16,
+                "total_meals": 38
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 24
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 40
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 17
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 48
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 17
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 27
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 45
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 45
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 32,
+                "total_meals": 33
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 30,
+                "total_meals": 93
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 59,
+                "total_meals": 97
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 54,
+                "total_meals": 57
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 52,
+                "total_meals": 76
+            }
+        ]
+    },
+    "202110": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 28,
+                "total_meals": 36
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 54
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 54
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 20
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 38
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 45
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 15
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 41
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 60
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 57,
+                "total_meals": 32
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 56,
+                "total_meals": 69
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 60,
+                "total_meals": 94
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 49,
+                "total_meals": 54
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 43,
+                "total_meals": 67
+            }
+        ]
+    },
+    "202111": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 22,
+                "total_meals": 59
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 57
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 30,
+                "total_meals": 27
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 24
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 47
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 31
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 26,
+                "total_meals": 41
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 16
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 21,
+                "total_meals": 38
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 30,
+                "total_meals": 98
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 48,
+                "total_meals": 95
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 50,
+                "total_meals": 69
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 45,
+                "total_meals": 82
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 50,
+                "total_meals": 98
+            }
+        ]
+    },
+    "202112": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 23,
+                "total_meals": 41
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 26,
+                "total_meals": 16
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 46
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 30,
+                "total_meals": 26
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 45
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 60
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 31
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 32
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 27
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 31,
+                "total_meals": 53
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 49,
+                "total_meals": 85
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 55,
+                "total_meals": 90
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 47,
+                "total_meals": 55
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 50,
+                "total_meals": 96
+            }
+        ]
+    },
+    "202201": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 25,
+                "total_meals": 58
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 30,
+                "total_meals": 18
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 20
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 27
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 59
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 48
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 40
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 27
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 32
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 44,
+                "total_meals": 67
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 52,
+                "total_meals": 31
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 47,
+                "total_meals": 67
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 32,
+                "total_meals": 76
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 46,
+                "total_meals": 50
             }
         ]
     },
@@ -89,83 +1109,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 160,
-                "total_meals": 215
+                "total_users": 10,
+                "total_meals": 27
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 51,
-                "total_meals": 234
+                "total_users": 17,
+                "total_meals": 38
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 55,
-                "total_meals": 381
+                "total_users": 30,
+                "total_meals": 49
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 144,
-                "total_meals": 193
+                "total_users": 17,
+                "total_meals": 46
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 104,
-                "total_meals": 368
+                "total_users": 29,
+                "total_meals": 51
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 199,
-                "total_meals": 204
+                "total_users": 17,
+                "total_meals": 52
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 68,
-                "total_meals": 101
+                "total_users": 27,
+                "total_meals": 32
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 190,
-                "total_meals": 256
+                "total_users": 19,
+                "total_meals": 47
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 66,
-                "total_meals": 392
+                "total_users": 11,
+                "total_meals": 49
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 329,
-                "total_meals": 623
+                "total_users": 58,
+                "total_meals": 75
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 173,
-                "total_meals": 685
+                "total_users": 57,
+                "total_meals": 81
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 448,
-                "total_meals": 856
+                "total_users": 43,
+                "total_meals": 88
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 269,
-                "total_meals": 903
+                "total_users": 35,
+                "total_meals": 90
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 147,
-                "total_meals": 672
+                "total_users": 45,
+                "total_meals": 63
             }
         ]
     },
@@ -174,83 +1194,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 117,
-                "total_meals": 370
+                "total_users": 11,
+                "total_meals": 47
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 63,
-                "total_meals": 265
+                "total_users": 23,
+                "total_meals": 36
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 85,
-                "total_meals": 304
+                "total_users": 20,
+                "total_meals": 59
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 189,
-                "total_meals": 100
+                "total_users": 27,
+                "total_meals": 28
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 103,
-                "total_meals": 397
+                "total_users": 23,
+                "total_meals": 34
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 107
+                "total_users": 17,
+                "total_meals": 48
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 152,
-                "total_meals": 205
+                "total_users": 24,
+                "total_meals": 37
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 79,
-                "total_meals": 382
+                "total_users": 19,
+                "total_meals": 41
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 191,
-                "total_meals": 181
+                "total_users": 18,
+                "total_meals": 19
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 369,
-                "total_meals": 431
+                "total_users": 55,
+                "total_meals": 88
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 250,
-                "total_meals": 480
+                "total_users": 51,
+                "total_meals": 98
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 122,
-                "total_meals": 587
+                "total_users": 60,
+                "total_meals": 30
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 236,
-                "total_meals": 701
+                "total_users": 51,
+                "total_meals": 37
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 411,
-                "total_meals": 287
+                "total_users": 43,
+                "total_meals": 49
             }
         ]
     },
@@ -259,83 +1279,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 160,
-                "total_meals": 134
+                "total_users": 21,
+                "total_meals": 19
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 119,
-                "total_meals": 242
+                "total_users": 26,
+                "total_meals": 21
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 62,
-                "total_meals": 111
+                "total_users": 11,
+                "total_meals": 36
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 93,
-                "total_meals": 394
+                "total_users": 24,
+                "total_meals": 51
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 180,
-                "total_meals": 349
+                "total_users": 14,
+                "total_meals": 57
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 101,
-                "total_meals": 313
+                "total_users": 21,
+                "total_meals": 45
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 188,
-                "total_meals": 247
+                "total_users": 19,
+                "total_meals": 57
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 79,
-                "total_meals": 305
+                "total_users": 21,
+                "total_meals": 56
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 159,
-                "total_meals": 349
+                "total_users": 24,
+                "total_meals": 30
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 180,
-                "total_meals": 307
+                "total_users": 46,
+                "total_meals": 73
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 488,
-                "total_meals": 246
+                "total_users": 35,
+                "total_meals": 50
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 486,
-                "total_meals": 207
+                "total_users": 41,
+                "total_meals": 65
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 379,
-                "total_meals": 765
+                "total_users": 38,
+                "total_meals": 35
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 162,
-                "total_meals": 819
+                "total_users": 36,
+                "total_meals": 77
             }
         ]
     },
@@ -344,83 +1364,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 194,
-                "total_meals": 385
+                "total_users": 29,
+                "total_meals": 33
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 176,
-                "total_meals": 365
+                "total_users": 18,
+                "total_meals": 34
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 148,
-                "total_meals": 337
+                "total_users": 14,
+                "total_meals": 38
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 82,
-                "total_meals": 344
+                "total_users": 21,
+                "total_meals": 25
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 80,
-                "total_meals": 239
+                "total_users": 22,
+                "total_meals": 52
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 79,
-                "total_meals": 114
+                "total_users": 13,
+                "total_meals": 59
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 131,
-                "total_meals": 246
+                "total_users": 20,
+                "total_meals": 33
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 196,
-                "total_meals": 167
+                "total_users": 12,
+                "total_meals": 15
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 59,
-                "total_meals": 391
+                "total_users": 29,
+                "total_meals": 22
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 207,
-                "total_meals": 244
+                "total_users": 60,
+                "total_meals": 73
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 250,
-                "total_meals": 633
+                "total_users": 51,
+                "total_meals": 49
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 193,
-                "total_meals": 357
+                "total_users": 30,
+                "total_meals": 84
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 438,
-                "total_meals": 219
+                "total_users": 36,
+                "total_meals": 51
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 320,
-                "total_meals": 350
+                "total_users": 48,
+                "total_meals": 63
             }
         ]
     },
@@ -429,83 +1449,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 164,
-                "total_meals": 254
+                "total_users": 26,
+                "total_meals": 30
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 54,
-                "total_meals": 208
+                "total_users": 26,
+                "total_meals": 37
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 89,
-                "total_meals": 182
+                "total_users": 14,
+                "total_meals": 20
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 153,
-                "total_meals": 204
+                "total_users": 24,
+                "total_meals": 50
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 145,
-                "total_meals": 269
+                "total_users": 29,
+                "total_meals": 49
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 112,
-                "total_meals": 269
+                "total_users": 29,
+                "total_meals": 31
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 108,
-                "total_meals": 359
+                "total_users": 30,
+                "total_meals": 29
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 95,
-                "total_meals": 257
+                "total_users": 16,
+                "total_meals": 37
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 90,
-                "total_meals": 177
+                "total_users": 29,
+                "total_meals": 35
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 265,
-                "total_meals": 664
+                "total_users": 43,
+                "total_meals": 43
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 282,
-                "total_meals": 526
+                "total_users": 30,
+                "total_meals": 37
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 475,
-                "total_meals": 451
+                "total_users": 41,
+                "total_meals": 78
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 322,
-                "total_meals": 471
+                "total_users": 49,
+                "total_meals": 71
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 316,
-                "total_meals": 413
+                "total_users": 34,
+                "total_meals": 47
             }
         ]
     },
@@ -514,83 +1534,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 57,
-                "total_meals": 142
+                "total_users": 22,
+                "total_meals": 20
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 70,
-                "total_meals": 179
+                "total_users": 22,
+                "total_meals": 49
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 83,
-                "total_meals": 215
+                "total_users": 30,
+                "total_meals": 21
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 128,
-                "total_meals": 264
+                "total_users": 13,
+                "total_meals": 28
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 154,
-                "total_meals": 256
+                "total_users": 13,
+                "total_meals": 16
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 117,
-                "total_meals": 105
+                "total_users": 13,
+                "total_meals": 16
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 180,
-                "total_meals": 288
+                "total_users": 24,
+                "total_meals": 44
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 55,
-                "total_meals": 301
+                "total_users": 11,
+                "total_meals": 33
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 102,
-                "total_meals": 166
+                "total_users": 29,
+                "total_meals": 45
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 319,
-                "total_meals": 290
+                "total_users": 39,
+                "total_meals": 41
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 352,
-                "total_meals": 258
+                "total_users": 41,
+                "total_meals": 37
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 161,
-                "total_meals": 794
+                "total_users": 36,
+                "total_meals": 98
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 217,
-                "total_meals": 658
+                "total_users": 31,
+                "total_meals": 89
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 370,
-                "total_meals": 320
+                "total_users": 38,
+                "total_meals": 56
             }
         ]
     },
@@ -599,83 +1619,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 180,
-                "total_meals": 228
+                "total_users": 21,
+                "total_meals": 44
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 198,
-                "total_meals": 189
+                "total_users": 10,
+                "total_meals": 26
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 154,
-                "total_meals": 217
+                "total_users": 27,
+                "total_meals": 36
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 144,
-                "total_meals": 245
+                "total_users": 12,
+                "total_meals": 48
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 159,
-                "total_meals": 160
+                "total_users": 16,
+                "total_meals": 57
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 177,
-                "total_meals": 340
+                "total_users": 24,
+                "total_meals": 24
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 134,
-                "total_meals": 218
+                "total_users": 22,
+                "total_meals": 50
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 109,
-                "total_meals": 171
+                "total_users": 13,
+                "total_meals": 39
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 147,
-                "total_meals": 291
+                "total_users": 23,
+                "total_meals": 45
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 346,
-                "total_meals": 566
+                "total_users": 47,
+                "total_meals": 59
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 261,
-                "total_meals": 390
+                "total_users": 47,
+                "total_meals": 55
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 277,
-                "total_meals": 373
+                "total_users": 59,
+                "total_meals": 49
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 134,
-                "total_meals": 708
+                "total_users": 35,
+                "total_meals": 96
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 134,
-                "total_meals": 922
+                "total_users": 31,
+                "total_meals": 54
             }
         ]
     },
@@ -684,83 +1704,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 63,
-                "total_meals": 174
+                "total_users": 19,
+                "total_meals": 27
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 111,
-                "total_meals": 100
+                "total_users": 22,
+                "total_meals": 39
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 192,
-                "total_meals": 322
+                "total_users": 28,
+                "total_meals": 22
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 314
+                "total_users": 18,
+                "total_meals": 44
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 130,
-                "total_meals": 381
+                "total_users": 27,
+                "total_meals": 38
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 159,
-                "total_meals": 153
+                "total_users": 10,
+                "total_meals": 29
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 80,
-                "total_meals": 379
+                "total_users": 30,
+                "total_meals": 38
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 174,
-                "total_meals": 312
+                "total_users": 24,
+                "total_meals": 56
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 181,
-                "total_meals": 194
+                "total_users": 17,
+                "total_meals": 52
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 450,
-                "total_meals": 315
+                "total_users": 34,
+                "total_meals": 64
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 151,
-                "total_meals": 484
+                "total_users": 40,
+                "total_meals": 38
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 390,
-                "total_meals": 467
+                "total_users": 38,
+                "total_meals": 90
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 407,
-                "total_meals": 520
+                "total_users": 46,
+                "total_meals": 75
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 446,
-                "total_meals": 839
+                "total_users": 39,
+                "total_meals": 88
             }
         ]
     },
@@ -769,83 +1789,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 131,
-                "total_meals": 117
+                "total_users": 28,
+                "total_meals": 22
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 161,
-                "total_meals": 344
+                "total_users": 22,
+                "total_meals": 60
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 67,
-                "total_meals": 311
+                "total_users": 25,
+                "total_meals": 49
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 132,
-                "total_meals": 189
+                "total_users": 25,
+                "total_meals": 42
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 177,
-                "total_meals": 269
+                "total_users": 18,
+                "total_meals": 54
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 92,
-                "total_meals": 339
+                "total_users": 23,
+                "total_meals": 48
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 70,
-                "total_meals": 361
+                "total_users": 28,
+                "total_meals": 58
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 114,
-                "total_meals": 129
+                "total_users": 28,
+                "total_meals": 51
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 192,
-                "total_meals": 366
+                "total_users": 21,
+                "total_meals": 30
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 105,
-                "total_meals": 973
+                "total_users": 58,
+                "total_meals": 76
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 149,
-                "total_meals": 530
+                "total_users": 52,
+                "total_meals": 77
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 316,
-                "total_meals": 465
+                "total_users": 43,
+                "total_meals": 75
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 275,
-                "total_meals": 465
+                "total_users": 57,
+                "total_meals": 34
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 274,
-                "total_meals": 287
+                "total_users": 41,
+                "total_meals": 47
             }
         ]
     },
@@ -854,83 +1874,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 63,
-                "total_meals": 179
+                "total_users": 19,
+                "total_meals": 24
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 73,
-                "total_meals": 386
+                "total_users": 20,
+                "total_meals": 36
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 189,
-                "total_meals": 239
+                "total_users": 25,
+                "total_meals": 32
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 137,
-                "total_meals": 344
+                "total_users": 12,
+                "total_meals": 15
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 182,
-                "total_meals": 149
+                "total_users": 15,
+                "total_meals": 15
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 51,
-                "total_meals": 290
+                "total_users": 28,
+                "total_meals": 39
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 182,
-                "total_meals": 235
+                "total_users": 30,
+                "total_meals": 48
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 102,
-                "total_meals": 135
+                "total_users": 30,
+                "total_meals": 45
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 103,
-                "total_meals": 176
+                "total_users": 12,
+                "total_meals": 50
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 224,
-                "total_meals": 204
+                "total_users": 45,
+                "total_meals": 93
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 410,
-                "total_meals": 750
+                "total_users": 46,
+                "total_meals": 44
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 165,
-                "total_meals": 218
+                "total_users": 52,
+                "total_meals": 65
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 312,
-                "total_meals": 629
+                "total_users": 50,
+                "total_meals": 98
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 155,
-                "total_meals": 769
+                "total_users": 42,
+                "total_meals": 95
             }
         ]
     },
@@ -939,83 +1959,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 170,
-                "total_meals": 352
+                "total_users": 16,
+                "total_meals": 48
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 219
+                "total_users": 22,
+                "total_meals": 25
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 91,
-                "total_meals": 314
+                "total_users": 15,
+                "total_meals": 28
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 107,
-                "total_meals": 258
+                "total_users": 20,
+                "total_meals": 16
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 67,
-                "total_meals": 254
+                "total_users": 21,
+                "total_meals": 41
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 177,
-                "total_meals": 246
+                "total_users": 19,
+                "total_meals": 52
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 104,
-                "total_meals": 122
+                "total_users": 16,
+                "total_meals": 18
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 174,
-                "total_meals": 343
+                "total_users": 14,
+                "total_meals": 22
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 182,
-                "total_meals": 300
+                "total_users": 14,
+                "total_meals": 49
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 422,
-                "total_meals": 884
+                "total_users": 33,
+                "total_meals": 66
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 225,
-                "total_meals": 441
+                "total_users": 35,
+                "total_meals": 31
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 238,
-                "total_meals": 406
+                "total_users": 50,
+                "total_meals": 88
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 492,
-                "total_meals": 799
+                "total_users": 52,
+                "total_meals": 61
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 454,
-                "total_meals": 910
+                "total_users": 44,
+                "total_meals": 54
             }
         ]
     },
@@ -1024,83 +2044,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 110,
-                "total_meals": 186
+                "total_users": 16,
+                "total_meals": 32
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 129,
-                "total_meals": 366
+                "total_users": 13,
+                "total_meals": 36
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 117,
-                "total_meals": 292
+                "total_users": 30,
+                "total_meals": 49
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 98,
-                "total_meals": 204
+                "total_users": 30,
+                "total_meals": 35
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 149,
-                "total_meals": 303
+                "total_users": 24,
+                "total_meals": 50
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 182,
-                "total_meals": 274
+                "total_users": 26,
+                "total_meals": 44
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 132,
-                "total_meals": 286
+                "total_users": 26,
+                "total_meals": 39
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 124,
-                "total_meals": 123
+                "total_users": 14,
+                "total_meals": 58
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 176,
-                "total_meals": 268
+                "total_users": 18,
+                "total_meals": 56
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 459,
-                "total_meals": 337
+                "total_users": 33,
+                "total_meals": 31
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 147,
-                "total_meals": 395
+                "total_users": 45,
+                "total_meals": 40
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 408,
-                "total_meals": 696
+                "total_users": 34,
+                "total_meals": 55
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 389,
-                "total_meals": 638
+                "total_users": 52,
+                "total_meals": 99
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 487,
-                "total_meals": 527
+                "total_users": 31,
+                "total_meals": 74
             }
         ]
     },
@@ -1109,83 +2129,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 171,
-                "total_meals": 109
+                "total_users": 20,
+                "total_meals": 28
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 92,
-                "total_meals": 391
+                "total_users": 26,
+                "total_meals": 37
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 157,
-                "total_meals": 152
+                "total_users": 10,
+                "total_meals": 42
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 144,
-                "total_meals": 270
+                "total_users": 14,
+                "total_meals": 24
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 107,
-                "total_meals": 110
+                "total_users": 17,
+                "total_meals": 16
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 190,
-                "total_meals": 295
+                "total_users": 26,
+                "total_meals": 43
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 178,
-                "total_meals": 387
+                "total_users": 14,
+                "total_meals": 27
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 116,
-                "total_meals": 372
+                "total_users": 18,
+                "total_meals": 48
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 104,
-                "total_meals": 115
+                "total_users": 30,
+                "total_meals": 44
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 123,
-                "total_meals": 330
+                "total_users": 59,
+                "total_meals": 55
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 228,
-                "total_meals": 562
+                "total_users": 55,
+                "total_meals": 58
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 375,
-                "total_meals": 357
+                "total_users": 37,
+                "total_meals": 75
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 205,
-                "total_meals": 736
+                "total_users": 30,
+                "total_meals": 79
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 419,
-                "total_meals": 293
+                "total_users": 55,
+                "total_meals": 80
             }
         ]
     },
@@ -1194,83 +2214,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 66,
-                "total_meals": 163
+                "total_users": 14,
+                "total_meals": 49
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 101,
-                "total_meals": 242
+                "total_users": 26,
+                "total_meals": 38
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 178,
-                "total_meals": 100
+                "total_users": 15,
+                "total_meals": 45
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 181,
-                "total_meals": 199
+                "total_users": 26,
+                "total_meals": 50
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 58,
-                "total_meals": 274
+                "total_users": 13,
+                "total_meals": 39
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 103,
-                "total_meals": 380
+                "total_users": 10,
+                "total_meals": 39
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 92,
-                "total_meals": 358
+                "total_users": 18,
+                "total_meals": 19
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 129,
-                "total_meals": 317
+                "total_users": 28,
+                "total_meals": 24
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 95,
-                "total_meals": 340
+                "total_users": 10,
+                "total_meals": 29
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 360,
-                "total_meals": 411
+                "total_users": 38,
+                "total_meals": 91
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 158,
-                "total_meals": 972
+                "total_users": 43,
+                "total_meals": 80
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 427,
-                "total_meals": 512
+                "total_users": 35,
+                "total_meals": 38
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 245,
-                "total_meals": 574
+                "total_users": 38,
+                "total_meals": 37
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 398,
-                "total_meals": 577
+                "total_users": 59,
+                "total_meals": 82
             }
         ]
     },
@@ -1279,83 +2299,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 93,
-                "total_meals": 181
+                "total_users": 16,
+                "total_meals": 48
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 66,
-                "total_meals": 183
+                "total_users": 20,
+                "total_meals": 36
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 182,
-                "total_meals": 253
+                "total_users": 13,
+                "total_meals": 28
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 176,
-                "total_meals": 303
+                "total_users": 21,
+                "total_meals": 38
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 52,
-                "total_meals": 249
+                "total_users": 22,
+                "total_meals": 17
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 129,
-                "total_meals": 186
+                "total_users": 28,
+                "total_meals": 26
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 92,
-                "total_meals": 352
+                "total_users": 19,
+                "total_meals": 33
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 97,
-                "total_meals": 251
+                "total_users": 20,
+                "total_meals": 50
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 150,
-                "total_meals": 385
+                "total_users": 22,
+                "total_meals": 35
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 137,
-                "total_meals": 487
+                "total_users": 46,
+                "total_meals": 55
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 489,
-                "total_meals": 478
+                "total_users": 52,
+                "total_meals": 36
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 282,
-                "total_meals": 683
+                "total_users": 57,
+                "total_meals": 84
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 136,
-                "total_meals": 640
+                "total_users": 47,
+                "total_meals": 99
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 273,
-                "total_meals": 878
+                "total_users": 47,
+                "total_meals": 88
             }
         ]
     },
@@ -1364,83 +2384,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 121,
-                "total_meals": 255
+                "total_users": 20,
+                "total_meals": 28
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 111,
-                "total_meals": 268
+                "total_users": 16,
+                "total_meals": 32
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 127,
-                "total_meals": 387
+                "total_users": 26,
+                "total_meals": 48
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 197,
-                "total_meals": 366
+                "total_users": 18,
+                "total_meals": 25
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 152,
-                "total_meals": 230
+                "total_users": 25,
+                "total_meals": 41
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 101,
-                "total_meals": 258
+                "total_users": 23,
+                "total_meals": 25
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 73,
-                "total_meals": 163
+                "total_users": 22,
+                "total_meals": 36
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 52,
-                "total_meals": 204
+                "total_users": 17,
+                "total_meals": 56
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 100,
-                "total_meals": 132
+                "total_users": 21,
+                "total_meals": 34
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 158,
-                "total_meals": 441
+                "total_users": 37,
+                "total_meals": 47
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 140,
-                "total_meals": 303
+                "total_users": 30,
+                "total_meals": 36
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 313,
-                "total_meals": 493
+                "total_users": 37,
+                "total_meals": 54
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 454,
-                "total_meals": 778
+                "total_users": 49,
+                "total_meals": 51
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 479,
-                "total_meals": 848
+                "total_users": 39,
+                "total_meals": 98
             }
         ]
     },
@@ -1449,83 +2469,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 93,
-                "total_meals": 299
+                "total_users": 29,
+                "total_meals": 23
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 53,
-                "total_meals": 124
+                "total_users": 19,
+                "total_meals": 55
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 93,
-                "total_meals": 241
+                "total_users": 10,
+                "total_meals": 54
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 127,
-                "total_meals": 260
+                "total_users": 13,
+                "total_meals": 24
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 103,
-                "total_meals": 382
+                "total_users": 12,
+                "total_meals": 36
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 159,
-                "total_meals": 389
+                "total_users": 23,
+                "total_meals": 35
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 160,
-                "total_meals": 378
+                "total_users": 28,
+                "total_meals": 51
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 162,
-                "total_meals": 118
+                "total_users": 14,
+                "total_meals": 33
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 173,
-                "total_meals": 354
+                "total_users": 11,
+                "total_meals": 60
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 151,
-                "total_meals": 837
+                "total_users": 33,
+                "total_meals": 56
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 318,
-                "total_meals": 354
+                "total_users": 38,
+                "total_meals": 92
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 223,
-                "total_meals": 597
+                "total_users": 32,
+                "total_meals": 73
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 248,
-                "total_meals": 588
+                "total_users": 31,
+                "total_meals": 45
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 174,
-                "total_meals": 671
+                "total_users": 56,
+                "total_meals": 79
             }
         ]
     },
@@ -1534,83 +2554,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 70,
-                "total_meals": 162
+                "total_users": 17,
+                "total_meals": 29
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 158,
-                "total_meals": 290
+                "total_users": 22,
+                "total_meals": 20
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 185,
-                "total_meals": 229
+                "total_users": 11,
+                "total_meals": 32
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 184
+                "total_users": 19,
+                "total_meals": 36
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 101,
-                "total_meals": 366
+                "total_users": 27,
+                "total_meals": 33
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 61,
-                "total_meals": 142
+                "total_users": 15,
+                "total_meals": 39
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 189,
-                "total_meals": 231
+                "total_users": 21,
+                "total_meals": 19
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 166,
-                "total_meals": 209
+                "total_users": 10,
+                "total_meals": 53
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 160,
-                "total_meals": 331
+                "total_users": 12,
+                "total_meals": 17
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 162,
-                "total_meals": 820
+                "total_users": 48,
+                "total_meals": 81
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 188,
-                "total_meals": 235
+                "total_users": 42,
+                "total_meals": 52
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 350,
-                "total_meals": 457
+                "total_users": 57,
+                "total_meals": 35
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 166,
-                "total_meals": 947
+                "total_users": 54,
+                "total_meals": 100
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 453,
-                "total_meals": 539
+                "total_users": 42,
+                "total_meals": 49
             }
         ]
     },
@@ -1619,83 +2639,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 127,
-                "total_meals": 122
+                "total_users": 29,
+                "total_meals": 56
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 154,
-                "total_meals": 379
+                "total_users": 25,
+                "total_meals": 46
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 100,
-                "total_meals": 372
+                "total_users": 21,
+                "total_meals": 23
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 151,
-                "total_meals": 141
+                "total_users": 13,
+                "total_meals": 36
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 69,
-                "total_meals": 397
+                "total_users": 13,
+                "total_meals": 47
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 70,
-                "total_meals": 136
+                "total_users": 26,
+                "total_meals": 16
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 161,
-                "total_meals": 327
+                "total_users": 11,
+                "total_meals": 31
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 108,
-                "total_meals": 340
+                "total_users": 23,
+                "total_meals": 28
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 102,
-                "total_meals": 174
+                "total_users": 22,
+                "total_meals": 43
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 244,
-                "total_meals": 210
+                "total_users": 43,
+                "total_meals": 53
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 355,
-                "total_meals": 505
+                "total_users": 47,
+                "total_meals": 48
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 246,
-                "total_meals": 764
+                "total_users": 58,
+                "total_meals": 89
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 296,
-                "total_meals": 982
+                "total_users": 34,
+                "total_meals": 59
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 350,
-                "total_meals": 363
+                "total_users": 32,
+                "total_meals": 92
             }
         ]
     },
@@ -1704,83 +2724,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 92,
-                "total_meals": 172
+                "total_users": 10,
+                "total_meals": 22
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 138,
-                "total_meals": 275
+                "total_users": 26,
+                "total_meals": 27
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 88,
-                "total_meals": 130
+                "total_users": 27,
+                "total_meals": 55
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 82,
-                "total_meals": 350
+                "total_users": 21,
+                "total_meals": 16
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 85,
-                "total_meals": 272
+                "total_users": 22,
+                "total_meals": 34
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 90,
-                "total_meals": 176
+                "total_users": 13,
+                "total_meals": 36
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 151,
-                "total_meals": 367
+                "total_users": 24,
+                "total_meals": 23
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 90,
-                "total_meals": 184
+                "total_users": 24,
+                "total_meals": 56
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 70,
-                "total_meals": 349
+                "total_users": 10,
+                "total_meals": 30
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 462,
-                "total_meals": 276
+                "total_users": 47,
+                "total_meals": 58
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 376,
-                "total_meals": 833
+                "total_users": 51,
+                "total_meals": 44
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 141,
-                "total_meals": 470
+                "total_users": 57,
+                "total_meals": 80
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 126,
-                "total_meals": 586
+                "total_users": 41,
+                "total_meals": 30
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 145,
-                "total_meals": 984
+                "total_users": 49,
+                "total_meals": 74
             }
         ]
     },
@@ -1789,83 +2809,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 112,
-                "total_meals": 171
+                "total_users": 20,
+                "total_meals": 38
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 73,
-                "total_meals": 126
+                "total_users": 20,
+                "total_meals": 52
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 193,
-                "total_meals": 282
+                "total_users": 16,
+                "total_meals": 24
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 175,
-                "total_meals": 364
+                "total_users": 16,
+                "total_meals": 36
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 96,
-                "total_meals": 236
+                "total_users": 10,
+                "total_meals": 57
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 133,
-                "total_meals": 116
+                "total_users": 15,
+                "total_meals": 57
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 80,
-                "total_meals": 296
+                "total_users": 27,
+                "total_meals": 29
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 187,
-                "total_meals": 362
+                "total_users": 23,
+                "total_meals": 25
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 142,
-                "total_meals": 333
+                "total_users": 13,
+                "total_meals": 26
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 328,
-                "total_meals": 875
+                "total_users": 55,
+                "total_meals": 32
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 380,
-                "total_meals": 245
+                "total_users": 46,
+                "total_meals": 73
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 449,
-                "total_meals": 346
+                "total_users": 35,
+                "total_meals": 76
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 355,
-                "total_meals": 782
+                "total_users": 52,
+                "total_meals": 72
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 470,
-                "total_meals": 242
+                "total_users": 42,
+                "total_meals": 60
             }
         ]
     },
@@ -1874,83 +2894,83 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 124,
-                "total_meals": 166
+                "total_users": 25,
+                "total_meals": 17
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 185,
-                "total_meals": 395
+                "total_users": 26,
+                "total_meals": 37
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 145
+                "total_users": 22,
+                "total_meals": 54
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 142,
-                "total_meals": 165
+                "total_users": 26,
+                "total_meals": 51
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 113,
-                "total_meals": 323
+                "total_users": 13,
+                "total_meals": 23
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 141,
-                "total_meals": 265
+                "total_users": 29,
+                "total_meals": 28
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 94,
-                "total_meals": 352
+                "total_users": 28,
+                "total_meals": 30
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 189,
-                "total_meals": 211
+                "total_users": 28,
+                "total_meals": 37
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 115,
-                "total_meals": 340
+                "total_users": 28,
+                "total_meals": 20
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 187,
-                "total_meals": 200
+                "total_users": 48,
+                "total_meals": 97
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 151,
-                "total_meals": 250
+                "total_users": 37,
+                "total_meals": 45
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 164,
-                "total_meals": 525
+                "total_users": 36,
+                "total_meals": 74
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 427,
-                "total_meals": 895
+                "total_users": 37,
+                "total_meals": 86
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 493,
-                "total_meals": 484
+                "total_users": 47,
+                "total_meals": 63
             }
         ]
     },
@@ -1959,83 +2979,1103 @@
             {
                 "store_id": 1,
                 "store": "\u54c1\u5ddd\u672c\u793e",
-                "total_users": 59,
-                "total_meals": 336
+                "total_users": 10,
+                "total_meals": 31
             },
             {
                 "store_id": 2,
                 "store": "\u672d\u5e4c\u652f\u793e",
-                "total_users": 68,
-                "total_meals": 175
+                "total_users": 24,
+                "total_meals": 25
             },
             {
                 "store_id": 3,
                 "store": "\u9759\u5ca1\u652f\u793e",
-                "total_users": 125,
-                "total_meals": 374
+                "total_users": 12,
+                "total_meals": 31
             },
             {
                 "store_id": 4,
                 "store": "\u540d\u53e4\u5c4b\u652f\u793e",
-                "total_users": 179,
-                "total_meals": 315
+                "total_users": 24,
+                "total_meals": 15
             },
             {
                 "store_id": 5,
                 "store": "\u6075\u6bd4\u5bff\u652f\u793e",
-                "total_users": 146,
-                "total_meals": 135
+                "total_users": 17,
+                "total_meals": 34
             },
             {
                 "store_id": 6,
                 "store": "\u4ed9\u53f0\u652f\u793e",
-                "total_users": 165,
-                "total_meals": 215
+                "total_users": 19,
+                "total_meals": 57
             },
             {
                 "store_id": 7,
                 "store": "\u5e83\u5cf6\u652f\u793e",
-                "total_users": 66,
-                "total_meals": 138
+                "total_users": 16,
+                "total_meals": 28
             },
             {
                 "store_id": 8,
                 "store": "\u798f\u5ca1\u652f\u793e",
-                "total_users": 177,
-                "total_meals": 145
+                "total_users": 30,
+                "total_meals": 53
             },
             {
                 "store_id": 9,
                 "store": "\u6d45\u8349\u652f\u793e",
-                "total_users": 125,
-                "total_meals": 127
+                "total_users": 10,
+                "total_meals": 52
             }
         ],
         "age_group_data": [
             {
                 "age_group": "20\u4ee3",
-                "total_users": 263,
-                "total_meals": 829
+                "total_users": 38,
+                "total_meals": 95
             },
             {
                 "age_group": "30\u4ee3",
-                "total_users": 216,
-                "total_meals": 589
+                "total_users": 42,
+                "total_meals": 45
             },
             {
                 "age_group": "40\u4ee3",
-                "total_users": 415,
-                "total_meals": 810
+                "total_users": 52,
+                "total_meals": 71
             },
             {
                 "age_group": "50\u4ee3",
-                "total_users": 149,
-                "total_meals": 656
+                "total_users": 41,
+                "total_meals": 59
             },
             {
                 "age_group": "60\u4ee3\u4ee5\u4e0a",
-                "total_users": 354,
-                "total_meals": 434
+                "total_users": 34,
+                "total_meals": 86
+            }
+        ]
+    },
+    "202401": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 16,
+                "total_meals": 52
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 35
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 56
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 22
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 27,
+                "total_meals": 32
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 49
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 27,
+                "total_meals": 29
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 27
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 18
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 60,
+                "total_meals": 68
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 52,
+                "total_meals": 41
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 37,
+                "total_meals": 91
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 48,
+                "total_meals": 83
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 32,
+                "total_meals": 42
+            }
+        ]
+    },
+    "202402": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 25,
+                "total_meals": 51
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 21
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 26
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 22
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 43
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 16
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 20
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 49
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 52
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 43,
+                "total_meals": 62
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 47,
+                "total_meals": 56
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 48,
+                "total_meals": 80
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 35,
+                "total_meals": 95
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 47,
+                "total_meals": 98
+            }
+        ]
+    },
+    "202403": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 16,
+                "total_meals": 23
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 21,
+                "total_meals": 30
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 57
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 34
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 48
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 30,
+                "total_meals": 19
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 16
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 33
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 32
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 38,
+                "total_meals": 58
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 57,
+                "total_meals": 53
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 36,
+                "total_meals": 83
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 58,
+                "total_meals": 64
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 49,
+                "total_meals": 30
+            }
+        ]
+    },
+    "202404": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 13,
+                "total_meals": 46
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 18
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 59
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 52
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 21,
+                "total_meals": 46
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 58
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 22
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 58
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 37
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 48,
+                "total_meals": 67
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 48,
+                "total_meals": 79
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 51,
+                "total_meals": 33
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 48,
+                "total_meals": 47
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 37,
+                "total_meals": 82
+            }
+        ]
+    },
+    "202405": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 24,
+                "total_meals": 21
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 56
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 28
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 27,
+                "total_meals": 25
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 31
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 30
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 40
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 58
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 46
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 53,
+                "total_meals": 82
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 45,
+                "total_meals": 53
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 47,
+                "total_meals": 35
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 51,
+                "total_meals": 53
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 51,
+                "total_meals": 42
+            }
+        ]
+    },
+    "202406": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 20,
+                "total_meals": 53
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 40
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 18
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 60
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 43
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 50
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 27
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 19
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 46
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 36,
+                "total_meals": 67
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 38,
+                "total_meals": 71
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 51,
+                "total_meals": 46
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 50,
+                "total_meals": 58
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 34,
+                "total_meals": 64
+            }
+        ]
+    },
+    "202407": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 30,
+                "total_meals": 25
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 40
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 17
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 50
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 47
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 23
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 18,
+                "total_meals": 54
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 38
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 19
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 54,
+                "total_meals": 72
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 53,
+                "total_meals": 74
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 39,
+                "total_meals": 33
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 39,
+                "total_meals": 43
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 34,
+                "total_meals": 38
+            }
+        ]
+    },
+    "202408": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 26,
+                "total_meals": 44
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 15,
+                "total_meals": 49
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 19
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 52
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 30,
+                "total_meals": 16
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 48
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 28,
+                "total_meals": 22
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 39
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 21,
+                "total_meals": 56
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 49,
+                "total_meals": 44
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 53,
+                "total_meals": 33
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 40,
+                "total_meals": 35
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 48,
+                "total_meals": 68
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 43,
+                "total_meals": 90
+            }
+        ]
+    },
+    "202409": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 19,
+                "total_meals": 35
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 44
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 27
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 14,
+                "total_meals": 52
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 57
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 52
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 24,
+                "total_meals": 23
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 31
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 52
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 31,
+                "total_meals": 63
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 38,
+                "total_meals": 46
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 36,
+                "total_meals": 70
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 48,
+                "total_meals": 88
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 36,
+                "total_meals": 97
+            }
+        ]
+    },
+    "202410": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 20,
+                "total_meals": 59
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 38
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 21
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 16,
+                "total_meals": 32
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 34
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 11,
+                "total_meals": 36
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 34
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 36
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 13,
+                "total_meals": 19
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 35,
+                "total_meals": 62
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 38,
+                "total_meals": 35
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 39,
+                "total_meals": 99
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 45,
+                "total_meals": 75
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 40,
+                "total_meals": 50
+            }
+        ]
+    },
+    "202411": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 16,
+                "total_meals": 47
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 19,
+                "total_meals": 48
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 23
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 23,
+                "total_meals": 38
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 39
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 38
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 20,
+                "total_meals": 24
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 22,
+                "total_meals": 55
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 25
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 42,
+                "total_meals": 99
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 33,
+                "total_meals": 88
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 40,
+                "total_meals": 92
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 47,
+                "total_meals": 93
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 38,
+                "total_meals": 62
+            }
+        ]
+    },
+    "202412": {
+        "store_data": [
+            {
+                "store_id": 1,
+                "store": "\u54c1\u5ddd\u672c\u793e",
+                "total_users": 12,
+                "total_meals": 15
+            },
+            {
+                "store_id": 2,
+                "store": "\u672d\u5e4c\u652f\u793e",
+                "total_users": 12,
+                "total_meals": 27
+            },
+            {
+                "store_id": 3,
+                "store": "\u9759\u5ca1\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 57
+            },
+            {
+                "store_id": 4,
+                "store": "\u540d\u53e4\u5c4b\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 22
+            },
+            {
+                "store_id": 5,
+                "store": "\u6075\u6bd4\u5bff\u652f\u793e",
+                "total_users": 10,
+                "total_meals": 38
+            },
+            {
+                "store_id": 6,
+                "store": "\u4ed9\u53f0\u652f\u793e",
+                "total_users": 25,
+                "total_meals": 19
+            },
+            {
+                "store_id": 7,
+                "store": "\u5e83\u5cf6\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 40
+            },
+            {
+                "store_id": 8,
+                "store": "\u798f\u5ca1\u652f\u793e",
+                "total_users": 29,
+                "total_meals": 60
+            },
+            {
+                "store_id": 9,
+                "store": "\u6d45\u8349\u652f\u793e",
+                "total_users": 17,
+                "total_meals": 19
+            }
+        ],
+        "age_group_data": [
+            {
+                "age_group": "20\u4ee3",
+                "total_users": 58,
+                "total_meals": 43
+            },
+            {
+                "age_group": "30\u4ee3",
+                "total_users": 50,
+                "total_meals": 71
+            },
+            {
+                "age_group": "40\u4ee3",
+                "total_users": 38,
+                "total_meals": 57
+            },
+            {
+                "age_group": "50\u4ee3",
+                "total_users": 31,
+                "total_meals": 85
+            },
+            {
+                "age_group": "60\u4ee3\u4ee5\u4e0a",
+                "total_users": 46,
+                "total_meals": 43
             }
         ]
     }

@@ -22,7 +22,7 @@ age_groups = ["20代", "30代", "40代", "50代", "60代以上"]
 data = {}
 
 # 指定された期間内の各月に対してデータを生成
-for year in range(2022, 2024):
+for year in range(2021, 2025):
     for month in range(1, 13):
         year_month = f"{year}{month:02d}"
         data[year_month] = {
@@ -35,16 +35,16 @@ for year in range(2022, 2024):
             data[year_month]["store_data"].append({
                 "store_id": store["store_id"],
                 "store": store["store"],
-                "total_users": random.randint(50, 200),  # 50から200の間でランダムな数
-                "total_meals": random.randint(100, 400),  # 100から400の間でランダムな数
+                "total_users": random.randint(10, 30),  # 50から200の間でランダムな数
+                "total_meals": random.randint(15, 60),  # 100から400の間でランダムな数
             })
 
         # 各年代に対してダミーデータを生成
         for age_group in age_groups:
             data[year_month]["age_group_data"].append({
                 "age_group": age_group,
-                "total_users": random.randint(100, 500),  # 100から500の間でランダムな数
-                "total_meals": random.randint(200, 1000),  # 200から1000の間でランダムな数
+                "total_users": random.randint(30, 60),  # 100から500の間でランダムな数
+                "total_meals": random.randint(30, 100),  # 200から1000の間でランダムな数
             })
 
 # ダミーデータをJSONファイルに保存
