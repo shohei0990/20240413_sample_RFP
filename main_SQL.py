@@ -8,9 +8,26 @@ import pandas as pd
 from sqlalchemy import create_engine
 from typing import Optional
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+# CORSを許可するオリジンのリスト
+origins = [
+    "https://www.example.com",
+    "https://api.example.com"
+]
 
 app = FastAPI()
 engine = create_engine('sqlite:///pop-make-up_DB_add.db')
+
+# CORSミドルウェアの設定
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins="*",  # 全てのオリジンを許可する場合は ["*"]
+    allow_credentials=True,
+    allow_methods=["*"],  # または特定のHTTPメソッド ['GET', 'POST', 'PUT']
+    allow_headers=["*"],  # または特定のヘッダー ['X-Custom-Header']
+)
+
 
 # データフレームの辞書化
 def execute_query(query: str) -> Optional[dict]:
@@ -240,6 +257,9 @@ def get_previous_month_data(year_month: str):
     previous_month_result = execute_query(previous_month_query)
     return previous_month_result
 
+@app.get("/")
+async def main():
+    return {"message": "Hello World"}
 
 @app.get("/monthly-summary/{year_month}")
 async def get_monthly_summary(year_month: str):
