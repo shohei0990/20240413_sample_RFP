@@ -54,42 +54,61 @@ def build_monthly_summary_query(formatted_year_month: str) -> str:
     """
 
 ## API②
-def build_usage_frequency_query(formatted_year_month: str) -> str:
-    """使用頻度に関するSQLクエリを構築する関数"""
-    return f"""
-    -- 週ごとの使用回数と総使用回数を計算し、使用頻度のカテゴリを割り当てる
+def get_total_users_count() -> int:
+    """ユーザーの総数を取得する関数"""
+    query = "SELECT COUNT(*) AS TotalUserCount FROM users"
+    result = execute_query(query)
+    if result:
+        return result[0]['TotalUserCount']
+    else:
+        return 0
 
+def build_usage_frequency_query(formatted_year_month: str) -> str:
+    """使用頻度に関するSQLクエリを構築する関数。週利用回数が0のユーザー数も正確に計算する。"""
+    total_users_count = get_total_users_count()  # ユーザー総数を取得
+    return f"""
     WITH UserWeeklyUsage AS (
         SELECT
-            user_id,                                           
-            COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed, -- 週ごとの使用回数をカウント strftime('%W', DATE)関数を使用して、指定された日付（DATE）がその年の何週目にあたるかを計算
-            COUNT(*) AS TotalUsage,                            -- 指定された年月におけるユーザーの総使用回数をカウント
-            CASE                                               -- 使用回数と週の数から平均を計算し、それに基づいて使用頻度のカテゴリを割り当てる
-                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 0 THEN 'zero'
-                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 1 THEN 'once'
-                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 2 THEN 'twice'
-                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 3 THEN 'thrice'
-                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 4 THEN 'four'
-                ELSE 'five_plus'
-            END AS UsageCategory
+            user_id,
+            COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed,
+            COUNT(*) AS TotalUsage
         FROM
             final_combined_data
-        WHERE                                                 -- 指定された年月に基づいてデータをフィルタリング
+        WHERE
             strftime('%Y-%m', DATE) = '{formatted_year_month}'
         GROUP BY
             user_id
+    ), UsageCategory AS (
+        SELECT
+            user_id,
+            CASE
+                WHEN WeeksUsed = 0 THEN 'zero'
+                WHEN TotalUsage / WeeksUsed < 2 THEN 'once'
+                WHEN TotalUsage / WeeksUsed < 3 THEN 'twice'
+                WHEN TotalUsage / WeeksUsed < 4 THEN 'thrice'
+                WHEN TotalUsage / WeeksUsed < 5 THEN 'four'
+                ELSE 'five_plus'
+            END AS Category
+        FROM
+            UserWeeklyUsage
+    ), CategoryCounts AS (
+        SELECT
+            Category,
+            COUNT(*) AS UsersCount
+        FROM
+            UsageCategory
+        GROUP BY
+            Category
     )
-
-    -- 使用頻度のカテゴリごとにユーザー数を集計
     SELECT
-        UsageCategory,
-        COUNT(user_id) AS UsersCount
+        Category AS UsageCategory,
+        UsersCount
     FROM
-        UserWeeklyUsage
-    GROUP BY
-        UsageCategory
-    ORDER BY
-        UsageCategory
+        CategoryCounts
+    UNION ALL
+    SELECT
+        'zero' AS UsageCategory,
+        {total_users_count} - (SELECT SUM(UsersCount) FROM CategoryCounts) AS UsersCount
     """
 
 def get_previous_month(year_month: str) -> str:
@@ -100,12 +119,15 @@ def get_previous_month(year_month: str) -> str:
 
 
 
-def calculate_growth_rate(current_count, previous_count):
-    """成長率を計算するヘルパー関数"""
+def calculate_growth_rate(current_count: int, previous_count: Optional[int]) -> float:
+    """成長率を計算する関数。前月のカウントがNoneの場合は0として扱う。"""
+    # previous_countがNoneの場合、0として扱う
+    previous_count = previous_count or 0
     if previous_count > 0:
-        return ((current_count - previous_count) / previous_count) * 100
+        growth_rate = ((current_count - previous_count) / previous_count) * 100
     else:
-        return None  
+        growth_rate = "N/A"  # 前月のデータがない場合は"N/A"とする
+    return growth_rate
 
 
 def format_usage_frequency_result(year_month: str, current_result: list, previous_result: list) -> dict:
