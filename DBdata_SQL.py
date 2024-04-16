@@ -11,7 +11,7 @@ SELECT
     r.id AS RSV_ID,
     r.user_id,
     r.stock_id,
-    u.employee_ID,
+    -- u.employee_ID,
     -- e.birthday,
     e.Gender,
     -- e.Department,

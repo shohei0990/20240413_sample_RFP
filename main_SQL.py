@@ -9,6 +9,7 @@ from sqlalchemy import create_engine
 from typing import Optional
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime, timedelta
 
 # CORSを許可するオリジンのリスト
 origins = [
@@ -37,6 +38,13 @@ def execute_query(query: str) -> Optional[dict]:
         return None
     return df.to_dict(orient='records')
 
+def get_previous_month(year_month: str) -> str:
+    """指定された年月の前月を計算する"""
+    year, month = int(year_month[:4]), int(year_month[4:6])
+    previous_month_date = datetime(year, month, 1) - timedelta(days=1)
+    return previous_month_date.strftime('%Y%m')
+
+
 ## API①
 def build_monthly_summary_query(formatted_year_month: str) -> str:
     """月間サマリーのSQLクエリを構築する関数"""
@@ -49,6 +57,8 @@ def build_monthly_summary_query(formatted_year_month: str) -> str:
     WHERE strftime('%Y-%m', DATE) = '{formatted_year_month}'
     GROUP BY strftime('%Y-%m', DATE)
     """
+
+
 
 ## API③
 def build_age_group_query(formatted_year_month: str) -> str:
@@ -84,121 +94,51 @@ def build_store_summary_query(formatted_year_month: str) -> str:
         strftime('%Y-%m', DATE), STORE
     """
 
+
+
 ## API②
-def user_weekly_usage():
-    return """
-    SELECT
-        user_id,
-        strftime('%Y-%m', DATE) AS Month,
-        COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed,
-        COUNT(*) AS TotalUsage
-    FROM
-        final_combined_data
-    GROUP BY
-        user_id, Month
-    """
-
-def average_weekly_usage_rounded():
-    return """
-    SELECT
-        Month,
-        user_id,
-        ROUND(TotalUsage * 1.0 / WeeksUsed) AS RoundedAvgWeeklyUsage
-    FROM
-        UserWeeklyUsage
-    """
-
-def usage_count_per_category():
-    return """
-    SELECT
-        Month,
-        CASE
-            WHEN RoundedAvgWeeklyUsage = 0 THEN 'zero'
-            WHEN RoundedAvgWeeklyUsage = 1 THEN 'once'
-            WHEN RoundedAvgWeeklyUsage = 2 THEN 'twice'
-            WHEN RoundedAvgWeeklyUsage = 3 THEN 'thrice'
-            WHEN RoundedAvgWeeklyUsage = 4 THEN 'four'
-            WHEN RoundedAvgWeeklyUsage >= 5 THEN 'five_plus'
-        END AS UsageCategory,
-        COUNT(user_id) AS UsersCount
-    FROM
-        AverageWeeklyUsageRounded
-    GROUP BY
-        Month, UsageCategory
-    """
-
-def total_users_per_month():
-    return """
-    SELECT
-        Month,
-        SUM(UsersCount) AS TotalUsers
-    FROM
-        UsageCountPerCategory
-    GROUP BY
-        Month
-    """
-
-def build_usage_frequency_query(formatted_year_month: str, formatted_prev_year_month: str) -> str:
+def build_usage_frequency_query(formatted_year_month: str) -> str:
     """使用頻度に関するSQLクエリを構築する関数"""
     return f"""
     WITH UserWeeklyUsage AS (
         SELECT
             user_id,
-            strftime('%Y-%m', DATE) AS Month,
             COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed,
-            COUNT(*) AS TotalUsage
+            COUNT(*) AS TotalUsage,
+            CASE
+                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 0 THEN 'zero'
+                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 1 THEN 'once'
+                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 2 THEN 'twice'
+                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 3 THEN 'thrice'
+                WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 4 THEN 'four'
+                ELSE 'five_plus'
+            END AS UsageCategory
         FROM
             final_combined_data
         WHERE
-            Month IN ('{formatted_year_month}', '{formatted_prev_year_month}')
+            strftime('%Y-%m', DATE) = '{formatted_year_month}'
         GROUP BY
-            user_id, Month
-    ),
-    AverageWeeklyUsageRounded AS (
-        SELECT
-            Month,
-            user_id,
-            ROUND(TotalUsage * 1.0 / WeeksUsed) AS RoundedAvgWeeklyUsage
-        FROM
-            UserWeeklyUsage
-    ),
-    UsageCountPerCategory AS (
-        SELECT
-            Month,
-            CASE
-                WHEN RoundedAvgWeeklyUsage = 0 THEN 'zero'
-                WHEN RoundedAvgWeeklyUsage = 1 THEN 'once'
-                WHEN RoundedAvgWeeklyUsage = 2 THEN 'twice'
-                WHEN RoundedAvgWeeklyUsage = 3 THEN 'thrice'
-                WHEN RoundedAvgWeeklyUsage = 4 THEN 'four'
-                WHEN RoundedAvgWeeklyUsage >= 5 THEN 'five_plus'
-            END AS UsageCategory,
-            COUNT(user_id) AS UsersCount
-        FROM
-            AverageWeeklyUsageRounded
-        GROUP BY
-            Month, UsageCategory
-    ),
-    TotalUsersPerMonth AS (
-        SELECT
-            Month,
-            SUM(UsersCount) AS TotalUsers
-        FROM
-            UsageCountPerCategory
-        GROUP BY
-            Month
+            user_id
     )
     SELECT
-        U.Month,
-        U.UsageCategory,
-        U.UsersCount,
-        ROUND((U.UsersCount * 100.0 / T.TotalUsers), 1) AS PercentageOfTotalUsers
+        UsageCategory,
+        COUNT(user_id) AS UsersCount
     FROM
-        UsageCountPerCategory U
-        JOIN TotalUsersPerMonth T ON U.Month = T.Month
+        UserWeeklyUsage
+    GROUP BY
+        UsageCategory
     ORDER BY
-        U.Month, U.UsageCategory
+        UsageCategory
     """
+
+
+
+def calculate_growth_rate(current_count, previous_count):
+    """成長率を計算するヘルパー関数"""
+    if previous_count > 0:
+        return ((current_count - previous_count) / previous_count) * 100
+    else:
+        return None  # 'N/A' の代わりに None を返す
 
 def format_usage_frequency_result(year_month: str, current_result: list, previous_result: list) -> dict:
     # 先月のデータをカテゴリごとにマッピング
@@ -207,6 +147,9 @@ def format_usage_frequency_result(year_month: str, current_result: list, previou
     # カテゴリのリスト
     categories = ['zero', 'once', 'twice', 'thrice', 'four', 'five_plus']
 
+    # 全ユーザー数の合計を計算
+    total_users = sum(item['UsersCount'] for item in current_result)
+
     formatted_data = {year_month: {"freq": {}}}
 
     for category in categories:
@@ -214,48 +157,29 @@ def format_usage_frequency_result(year_month: str, current_result: list, previou
         previous_item = previous_data_map.get(category, None)
 
         current_count = current_item['UsersCount'] if current_item else 0
-        previous_count = previous_item['UsersCount'] if previous_item else 0
 
         # 成長率を計算
-        growth_rate = calculate_growth_rate(current_count, previous_count)
+        if previous_item is not None:
+            growth_rate = calculate_growth_rate(current_count, previous_item['UsersCount'])
+        else:
+            growth_rate = "N/A"
+
+        # 各カテゴリのユーザー数に対する割合を計算し、小数点以下第一位で丸める
+        pct = round((current_count / total_users * 100), 1) if total_users > 0 else 0
+
+        # 成長率が数値の場合、小数点以下第一位で丸める
+        if isinstance(growth_rate, float):
+            growth_rate = round(growth_rate, 1)
 
         formatted_data[year_month]["freq"][category] = {
             "avg": current_count,
-            "pct": current_item['PercentageOfTotalUsers'] if current_item else 0,
+            "pct": pct,
             "gr": growth_rate
         }
 
     return formatted_data
 
-def calculate_growth_rate(current_count, previous_count):
-    """成長率を計算するヘルパー関数"""
-    if previous_count > 0:
-        return ((current_count - previous_count) / previous_count) * 100
-    else:
-        return "N/A"
 
-
-def get_previous_month_data(year_month: str):
-    # 年月から先月の年月を計算
-    year, month = int(year_month[:4]), int(year_month[4:6])
-    if month == 1:
-        previous_month = f"{year-1}12"
-        prev_prev_month = f"{year-1}11"  # 前々月
-    elif month == 2:
-        previous_month = f"{year}01"
-        prev_prev_month = f"{year-1}12"  # 前々月
-    else:
-        previous_month = f"{year}{month-1:02d}"
-        prev_prev_month = f"{year}{month-2:02d}"  # 前々月
-
-    # 先月のデータを取得するクエリを構築
-    formatted_previous_month = f"{previous_month[:4]}-{previous_month[4:6]}"
-    formatted_prev_prev_month = f"{prev_prev_month[:4]}-{prev_prev_month[4:6]}"
-    previous_month_query = build_usage_frequency_query(formatted_previous_month, formatted_prev_prev_month)
-    
-    # クエリを実行
-    previous_month_result = execute_query(previous_month_query)
-    return previous_month_result
 
 @app.get("/")
 async def main():
@@ -282,27 +206,31 @@ async def get_monthly_summary(year_month: str):
     
 @app.get("/usage-frequency/{year_month}")
 async def get_usage_frequency(year_month: str):
-    formatted_year_month = f"{year_month[:4]}-{year_month[4:6]}"
+    """
+    指定された年月の使用頻度データを取得し、整形して返すエンドポイント。
     
-    # 前月の年月を計算
-    year, month = int(year_month[:4]), int(year_month[4:6])
-    if month == 1:
-        prev_year_month = f"{year-1}12"
-    else:
-        prev_year_month = f"{year}{month-1:02d}"
+    Args:
+        year_month (str): 'YYYYMM'形式の年月。
+    
+    Returns:
+        dict: 整形された使用頻度データ。
+    """
+    # 年月を 'YYYY-MM' 形式に変換
+    formatted_year_month = f"{year_month[:4]}-{year_month[4:6]}"
+    # 前月を計算
+    prev_year_month = get_previous_month(year_month)
     formatted_prev_year_month = f"{prev_year_month[:4]}-{prev_year_month[4:6]}"
     
-    current_query = build_usage_frequency_query(formatted_year_month, formatted_prev_year_month)
-    current_result = execute_query(current_query)
+    # 現在の月と前月のクエリを構築
+    current_query = build_usage_frequency_query(formatted_year_month)
+    prev_query = build_usage_frequency_query(formatted_prev_year_month)
     
-    if not current_result:
-        return {"error": "No data found for the specified year_month."}
+    # クエリを実行して結果を取得
+    current_result = execute_query(current_query)
+    previous_result = execute_query(prev_query)
 
-    # 先月のデータを取得
-    previous_result = get_previous_month_data(year_month)
-
-    # 成長率を含めて結果を整形
-    formatted_result = format_usage_frequency_result(year_month, current_result, previous_result)
+    # 前月のデータがない場合でも処理を続行
+    formatted_result = format_usage_frequency_result(year_month, current_result, previous_result if previous_result else [])
     return formatted_result
 
 
