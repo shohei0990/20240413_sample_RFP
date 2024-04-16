@@ -38,11 +38,6 @@ def execute_query(query: str) -> Optional[dict]:
         return None
     return df.to_dict(orient='records')
 
-def get_previous_month(year_month: str) -> str:
-    """指定された年月の前月を計算する"""
-    year, month = int(year_month[:4]), int(year_month[4:6])
-    previous_month_date = datetime(year, month, 1) - timedelta(days=1)
-    return previous_month_date.strftime('%Y%m')
 
 
 ## API①
@@ -58,54 +53,18 @@ def build_monthly_summary_query(formatted_year_month: str) -> str:
     GROUP BY strftime('%Y-%m', DATE)
     """
 
-
-
-## API③
-def build_age_group_query(formatted_year_month: str) -> str:
-    """年齢グループのSQLクエリを構築する関数"""
-    return f"""
-    SELECT
-        strftime('%Y-%m', DATE) AS Month,
-        age_group,
-        COUNT(DISTINCT user_id) AS Users_Per_Age_Group,
-        COUNT(stock_id) AS Stocks_Used_Per_Age_Group
-    FROM
-        final_combined_data
-    WHERE
-        strftime('%Y-%m', DATE) = '{formatted_year_month}'
-    GROUP BY
-        strftime('%Y-%m', DATE), age_group
-    """
-
-def build_store_summary_query(formatted_year_month: str) -> str:
-    """店舗サマリーのSQLクエリを構築する関数"""
-    return f"""
-    SELECT
-        strftime('%Y-%m', DATE) AS Month,
-        STORE,
-        STORE_ID,
-        COUNT(DISTINCT user_id) AS Users_Per_Store,
-        COUNT(stock_id) AS Stocks_Used_Per_Store
-    FROM
-        final_combined_data
-    WHERE
-        strftime('%Y-%m', DATE) = '{formatted_year_month}'
-    GROUP BY
-        strftime('%Y-%m', DATE), STORE
-    """
-
-
-
 ## API②
 def build_usage_frequency_query(formatted_year_month: str) -> str:
     """使用頻度に関するSQLクエリを構築する関数"""
     return f"""
+    -- 週ごとの使用回数と総使用回数を計算し、使用頻度のカテゴリを割り当てる
+
     WITH UserWeeklyUsage AS (
         SELECT
-            user_id,
-            COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed,
-            COUNT(*) AS TotalUsage,
-            CASE
+            user_id,                                           
+            COUNT(DISTINCT strftime('%W', DATE)) AS WeeksUsed, -- 週ごとの使用回数をカウント strftime('%W', DATE)関数を使用して、指定された日付（DATE）がその年の何週目にあたるかを計算
+            COUNT(*) AS TotalUsage,                            -- 指定された年月におけるユーザーの総使用回数をカウント
+            CASE                                               -- 使用回数と週の数から平均を計算し、それに基づいて使用頻度のカテゴリを割り当てる
                 WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 0 THEN 'zero'
                 WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 1 THEN 'once'
                 WHEN ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT strftime('%W', DATE)), 0) = 2 THEN 'twice'
@@ -115,11 +74,13 @@ def build_usage_frequency_query(formatted_year_month: str) -> str:
             END AS UsageCategory
         FROM
             final_combined_data
-        WHERE
+        WHERE                                                 -- 指定された年月に基づいてデータをフィルタリング
             strftime('%Y-%m', DATE) = '{formatted_year_month}'
         GROUP BY
             user_id
     )
+
+    -- 使用頻度のカテゴリごとにユーザー数を集計
     SELECT
         UsageCategory,
         COUNT(user_id) AS UsersCount
@@ -131,6 +92,12 @@ def build_usage_frequency_query(formatted_year_month: str) -> str:
         UsageCategory
     """
 
+def get_previous_month(year_month: str) -> str:
+    """指定された年月の前月を計算する"""
+    year, month = int(year_month[:4]), int(year_month[4:6])
+    previous_month_date = datetime(year, month, 1) - timedelta(days=1)
+    return previous_month_date.strftime('%Y%m')
+
 
 
 def calculate_growth_rate(current_count, previous_count):
@@ -138,7 +105,8 @@ def calculate_growth_rate(current_count, previous_count):
     if previous_count > 0:
         return ((current_count - previous_count) / previous_count) * 100
     else:
-        return None  # 'N/A' の代わりに None を返す
+        return None  
+
 
 def format_usage_frequency_result(year_month: str, current_result: list, previous_result: list) -> dict:
     # 先月のデータをカテゴリごとにマッピング
@@ -181,6 +149,44 @@ def format_usage_frequency_result(year_month: str, current_result: list, previou
 
 
 
+
+## API③
+def build_age_group_query(formatted_year_month: str) -> str:
+    """年齢グループのSQLクエリを構築する関数"""
+    return f"""
+    SELECT
+        strftime('%Y-%m', DATE) AS Month,
+        age_group,
+        COUNT(DISTINCT user_id) AS Users_Per_Age_Group,
+        COUNT(stock_id) AS Stocks_Used_Per_Age_Group
+    FROM
+        final_combined_data
+    WHERE
+        strftime('%Y-%m', DATE) = '{formatted_year_month}'
+    GROUP BY
+        strftime('%Y-%m', DATE), age_group
+    """
+
+def build_store_summary_query(formatted_year_month: str) -> str:
+    """店舗サマリーのSQLクエリを構築する関数"""
+    return f"""
+    SELECT
+        strftime('%Y-%m', DATE) AS Month,
+        STORE,
+        STORE_ID,
+        COUNT(DISTINCT user_id) AS Users_Per_Store,
+        COUNT(stock_id) AS Stocks_Used_Per_Store
+    FROM
+        final_combined_data
+    WHERE
+        strftime('%Y-%m', DATE) = '{formatted_year_month}'
+    GROUP BY
+        strftime('%Y-%m', DATE), STORE
+    """
+
+
+
+# API①  
 @app.get("/")
 async def main():
     return {"message": "Hello World"}
@@ -203,7 +209,8 @@ async def get_monthly_summary(year_month: str):
                         }
     return formatted_result
 
-    
+
+# API②   
 @app.get("/usage-frequency/{year_month}")
 async def get_usage_frequency(year_month: str):
     """
@@ -234,6 +241,7 @@ async def get_usage_frequency(year_month: str):
     return formatted_result
 
 
+# API③
 @app.get("/usage-group/{year_month}")
 async def get_usage_group(year_month: str):
     formatted_year_month = f"{year_month[:4]}-{year_month[4:6]}"
