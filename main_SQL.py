@@ -13,22 +13,21 @@ from datetime import datetime, timedelta
 
 # CORSを許可するオリジンのリスト
 origins = [
-    "https://www.example.com",
+    "http://localhost:3000",
     "https://api.example.com"
 ]
 
 app = FastAPI()
-engine = create_engine('sqlite:///pop-make-up_DB_add.db')
+engine = create_engine("sqlite:///pop-make-up_DB_add.db")
 
 # CORSミドルウェアの設定
 app.add_middleware(
     CORSMiddleware,
-    allow_origins="*",  # 全てのオリジンを許可する場合は ["*"]
+    allow_origins=origins,  # 全てのオリジンを許可する場合は ["*"]
     allow_credentials=True,
     allow_methods=["*"],  # または特定のHTTPメソッド ['GET', 'POST', 'PUT']
     allow_headers=["*"],  # または特定のヘッダー ['X-Custom-Header']
 )
-
 
 # データフレームの辞書化
 def execute_query(query: str) -> Optional[dict]:
@@ -137,31 +136,32 @@ def format_usage_frequency_result(year_month: str, current_result: list, previou
     # カテゴリのリスト
     categories = ['zero', 'once', 'twice', 'thrice', 'four', 'five_plus']
 
-    # 全ユーザー数の合計を計算
-    total_users = sum(item['UsersCount'] for item in current_result)
+    # 全ユーザー数の合計を計算。'UsersCount'がNoneの場合は0を使用
+    total_users = sum(item['UsersCount'] if item['UsersCount'] is not None else 0 for item in current_result)
 
-    formatted_data = {year_month: {"freq": {}}}
+    # 年月キーを削除し、直接"freq"オブジェクトを構築
+    formatted_data = {"freq": {}}
 
     for category in categories:
         current_item = next((item for item in current_result if item['UsageCategory'] == category), None)
         previous_item = previous_data_map.get(category, None)
 
-        current_count = current_item['UsersCount'] if current_item else 0
+        current_count = current_item['UsersCount'] if current_item and current_item['UsersCount'] is not None else 0
 
-        # 成長率を計算
-        if previous_item is not None:
+        # 成長率を計算。前月のデータがない場合は0とする
+        if previous_item and previous_item.get('UsersCount') is not None:
             growth_rate = calculate_growth_rate(current_count, previous_item['UsersCount'])
         else:
-            growth_rate = "N/A"
-
-        # 各カテゴリのユーザー数に対する割合を計算し、小数点以下第一位で丸める
-        pct = round((current_count / total_users * 100), 1) if total_users > 0 else 0
+            growth_rate = 0
 
         # 成長率が数値の場合、小数点以下第一位で丸める
         if isinstance(growth_rate, float):
             growth_rate = round(growth_rate, 1)
 
-        formatted_data[year_month]["freq"][category] = {
+        # 各カテゴリのユーザー数に対する割合を計算し、小数点以下第一位で丸める
+        pct = round((current_count / total_users * 100), 1) if total_users > 0 else 0
+
+        formatted_data["freq"][category] = {
             "avg": current_count,
             "pct": pct,
             "gr": growth_rate
@@ -224,10 +224,8 @@ async def get_monthly_summary(year_month: str):
         return {"error": "No data found for the specified year_month."}
     
     formatted_result = {
-                            year_month: {
                             "total_users": result[0]['Total_Users'],
-                            "total_stocks_used":result[0]['Total_Stocks_Used']
-                            }
+                            "total_meals":result[0]['Total_Stocks_Used']
                         }
     return formatted_result
 
@@ -282,7 +280,6 @@ async def get_usage_group(year_month: str):
 
     # 結果を group_data.json と同じ形式で整形
     formatted_result = {
-        year_month: {
             "store_data": [
                 {
                     "store_id": item["STORE_ID"],
@@ -300,7 +297,6 @@ async def get_usage_group(year_month: str):
                 }
                 for item in age_group_result
             ]
-        }
     }
 
     return formatted_result

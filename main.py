@@ -3,10 +3,31 @@
 # http://127.0.0.1:8000/docs で仕様確認
 # 年月をstr 数値6桁で GET送信, 各レスポンスが返ってくるアプリ
 
-from fastapi import FastAPI
 import json
+import pandas as pd
+from sqlalchemy import create_engine
+from typing import Optional
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime, timedelta
+
+# CORSを許可するオリジンのリスト
+origins = [
+    "http://localhost:3000",
+    "https://api.example.com"
+]
+
 
 app = FastAPI()
+
+# CORSミドルウェアの設定
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  # 全てのオリジンを許可する場合は ["*"]
+    allow_credentials=True,
+    allow_methods=["*"],  # または特定のHTTPメソッド ['GET', 'POST', 'PUT']
+    allow_headers=["*"],  # または特定のヘッダー ['X-Custom-Header']
+)
 
 # JSONファイルからダミーデータを読み込む
 with open('dummy_data.json', 'r') as file:
@@ -20,7 +41,7 @@ with open('usage_frequency_data.json', 'r') as file:
 with open('group_data.json', 'r') as file:
     group_data = json.load(file)
 
-@app.get("/usage-summary/{year_month}")
+@app.get("/monthly-summary/{year_month}")
 async def get_usage_summary(year_month: str):
     # year_monthがダミーデータに存在するかチェック
     if year_month in dummy_data:

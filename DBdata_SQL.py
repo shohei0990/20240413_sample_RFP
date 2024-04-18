@@ -5,6 +5,8 @@ import streamlit as st
 # データベースへの接続
 engine = create_engine('sqlite:///pop-make-up_DB_add.db')
 
+
+
 # SQLクエリを使用して必要な結合とカラムの選択を行う。まずはユーザ情報の結合
 query_1 = """
 SELECT

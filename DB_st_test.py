@@ -6,7 +6,7 @@ import pandas as pd
 st.title('SQLite Database Viewer')
 
 # データベースに接続
-conn = sqlite3.connect('pop-make-up_DB.db')
+conn = sqlite3.connect('pop-make-up_DB_add.db')
 
 # テーブル一覧を取得
 cursor = conn.cursor()
